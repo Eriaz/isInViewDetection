@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Playfair+Display:wght@400;600&display=swap');
+
+$playfair: 'Playfair Display', serif;
+$arimo : 'Arimo', sans-serif;
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: flex-start;
+	height: 400vh;
+	overflow-x: hidden;
+	position: relative;
+}
+
+.bloc {
+    width: 40vw;
+    height: 40vw;
+    background: red;
+}
